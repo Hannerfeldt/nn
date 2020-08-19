@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script type="module" src="neuron.js"></script> 
+    <script type="module" src="DNA.js"></script>
+    <script type="module" src="main.js"></script>  
+    
+</head>
+
+<body>
+    <div id="generations">
+        <p id="fitness">fitness:</p>
+    </div>
+    <!-- <div id="name_inputs">
+        <button id="name_add">add</button>
+    </div>
+
+    <input type="number" id="player_amount">
+    <button id="add_player">Lägg till</button> -->
+    <div id="error_msg"></div>
+    <div id="cross_container">
+        <div>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+        </div>
+        <div>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+            <button class="cross">&times;</button>
+        </div>
+    </div>
+    <div id="points">
+        <div class="points_row" id="names">
+            <p>Namn</p>
+            <div>Test</div>
+        </div>
+        <div class="points_row" id="aces">
+            <p>Ettor</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="twos">
+            <p>Tvåor</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="threes">
+            <p>Treor</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="fours">
+            <p>Fyror</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="fives">
+            <p>Femmor</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="sixes">
+            <p>Sexor</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="sum">
+            <p>Summa</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="bonus">
+            <p>Bonus</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="par">
+            <p>Par</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="twopar">
+            <p>Två par</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="threeofakind">
+            <p>Triss</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="fourofakind">
+            <p>Fyrtal</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="fullhouse">
+            <p>Kåk</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="small">
+            <p>Lilla</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="large">
+            <p>Stora</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="chance">
+            <p>Chans</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="yatzy">
+            <p>Yatzy</p>
+            <div></div>
+        </div>
+        <div class="points_row" id="total">
+            <p>Summan</p>
+            <div></div>
+        </div>
+
+    </div>
+    <div id="die_row">
+        <div class="die" id="die1"></div>
+        <div class="die" id="die2"></div>
+        <div class="die" id="die3"></div>
+        <div class="die" id="die4"></div>
+        <div class="die" id="die5"></div>
+    </div>
+    <button id="roll">kasta tärningarna</button>
+    <p id="rolls">0/2</p>
+</body>
+
+</html>
